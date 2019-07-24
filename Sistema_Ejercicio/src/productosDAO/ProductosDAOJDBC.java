@@ -166,7 +166,7 @@ public class ProductosDAOJDBC implements ProductoDAO {
             //Preparamos el objeto
             productos.setId(rs.getInt(1)) ;
             productos.setNombre(rs.getString(2));
-            productos.setDescr(rs.getString(4));
+            productos.setDescr(rs.getString(3));
             productos.setImporte(rs.getDouble(4));
             
             //Lo añadimos a la lista       
